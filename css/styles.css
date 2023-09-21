@@ -1,3 +1,22 @@
+
+:root {
+--IRIS:#4D5AE5;
+--NAVY-BLUE:#2E2F42;
+--WHITE:#FFF;
+}
 .logo {
    text-decoration: none;
+   color: var(--NAVY-BLUE);
+  font-family: Raleway;
+}
+.logo span {
+ color: var(--IRIS);
+}
+.menu {
+   list-style: none;
+   text-align: left;
+}
+.hero image {
+   background:;
+   background-color: var(--NAVY-BLUE);
 }
