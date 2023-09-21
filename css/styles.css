@@ -20,17 +20,18 @@
    padding: 0;
    font-family: roboto;
 }
-.submenu {
-   color: var(--NAVY-BLUE);
-}
 .studio {
    color: var(--IRIS);
+}
+.submenu {
+   color: var(--NAVY-BLUE);
 }
 .box{
       width: 1440px;
       height: 104px;
       flex-shrink: 0;
       background-color: var(--NAVY-BLUE);
+      font-family: roboto;
 }
 .heading {
    color: var(--WHITE);
@@ -42,6 +43,7 @@
       font-size: 10px;
       color: var(--WHITE);
       background-color: var(--IRIS);
+      
 }
 .section1 {
    list-style: none;
@@ -63,4 +65,22 @@ h2 {
 .team-member {
    list-style: none;
    padding: 0;
+   font-family: roboto;
+}
+.box-2 {
+   width: 1440px;
+   height: 104px;
+   flex-shrink: 0;
+   background-color: var(--NAVY-BLUE);
+   font-family: roboto;
+}
+.logo2 {
+   color: var(--WHITE);
+   font-family: raleway;
+}
+.logo2 span {
+   color: var(--IRIS);
+}
+.footer-para {
+   color: var(--WHITE);
 }
