@@ -16,7 +16,21 @@
    list-style: none;
    text-align: left;
 }
-.hero image {
-   background:;
-   background-color: var(--NAVY-BLUE);
+
+.box{
+      width: 1128px;
+      height: 104px;
+      flex-shrink: 0;
+      background-color: var(--NAVY-BLUE);
+}
+.heading {
+   color: var(--WHITE);
+   font-family: Roboto;
+   font-size: 25px;
+   text-align: center;
+}
+.button {
+      font-size: 10px;
+      color: var(--WHITE);
+      background-color: var(--IRIS);
 }
