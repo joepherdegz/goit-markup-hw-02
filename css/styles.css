@@ -67,7 +67,7 @@
    font-family: roboto sans-serif;
 }
 .box{
-   height: 104px;
+   height: 120px;
    flex-shrink: 0;
    background-color: var(--NAVY-BLUE);
    font-family: roboto;
@@ -75,7 +75,7 @@
 .heading {
    color: var(--WHITE);
    font-family: Roboto;
-   font-size: 25px;
+   font-size: 30px;
    text-align: center;
    font-style: normal;
    font-weight: 700;
@@ -103,7 +103,7 @@
 h2 {
    text-align: center;
    font-family: roboto;
-   font-size: 36px;
+   font-size: 30px;
    font-weight: 700;
 }
 .section2images {
