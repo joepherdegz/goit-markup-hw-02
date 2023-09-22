@@ -52,7 +52,6 @@
    font-family: roboto sans-serif;
 }
 .box{
-    width: 1440px;
    height: 104px;
    flex-shrink: 0;
    background-color: var(--NAVY-BLUE);
@@ -99,7 +98,6 @@ h2 {
    font-weight: 500;
 }
 .box-2 {
-   width: 1440px;
    height: 104px;
    flex-shrink: 0;
    background-color: var(--NAVY-BLUE);
