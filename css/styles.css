@@ -8,6 +8,10 @@
    color: var(--NAVY-BLUE);
   font-family: Raleway;
 }
+.logo:hover {
+   color: var(--IRIS);
+   font-size: large;
+}
 .logo span {
  color: var(--IRIS);
  padding: 0;
@@ -25,10 +29,19 @@
    font-weight: 800;
   text-decoration: none;
 }
+.studio:hover {
+   color: var(--NAVY-BLUE);
+   font-size: large;
+  }
 .submenu {
    color: var(--NAVY-BLUE);
    text-decoration: none;
    font-weight: 500;
+}
+.submenu:hover {
+   color: var(--IRIS);
+   text-shadow: var(--IRIS);
+   font-size: large;
 }
 .mail {
    color: var(--NAVY-BLUE);
@@ -38,6 +51,7 @@
 }
 .mail:hover {
    color: var(--IRIS);
+   font-size: large;
 }
 .tel {
    color: var(--NAVY-BLUE);
@@ -47,6 +61,7 @@
 }
 .tel:hover {
    color: var(--IRIS);
+   font-size: large;
 }
 .body {
    font-family: roboto sans-serif;
@@ -70,8 +85,13 @@
    background-color: var(--IRIS);
    font-size: 12px;
    font-style: normal;
-   font-family: roboto;  
+   font-family: roboto;
+   cursor: pointer;
 }
+.button:hover {
+   text-transform: uppercase;
+}
+
 .section1 {
    list-style: none;
    font-family: roboto;
@@ -82,7 +102,6 @@
 }
 h2 {
    text-align: center;
-   width: 1440px;
    font-family: roboto;
    font-size: 36px;
    font-weight: 700;
@@ -109,6 +128,10 @@ h2 {
    text-decoration: none;
 }
 .logo2 span {
+   color: var(--IRIS);
+}
+.logo2:hover {
+   font-size: large;
    color: var(--IRIS);
 }
 .footer-para {
