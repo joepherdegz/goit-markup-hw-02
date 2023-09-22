@@ -27,6 +27,7 @@
    color: var(--IRIS);
    font-family: raleway;
    font-weight: 800;
+   text-decoration: none;
 }
 .studio:hover {
    color: var(--NAVY-BLUE);
