@@ -1,4 +1,3 @@
-
 :root {
 --IRIS:#4D5AE5;
 --NAVY-BLUE:#2E2F42;
@@ -31,15 +30,33 @@
    text-decoration: none;
    font-weight: 500;
 }
+.mail {
+   color: var(--NAVY-BLUE);
+   text-decoration: none;
+   font-weight: 500;
+   font-size: 16px;
+}
+.mail:hover {
+   color: var(--IRIS);
+}
+.tel {
+   color: var(--NAVY-BLUE);
+      text-decoration: none;
+      font-weight: 500;
+      font-size: 16px;
+}
+.tel:hover {
+   color: var(--IRIS);
+}
 .body {
-   font-family: roboto;
+   font-family: roboto sans-serif;
 }
 .box{
-      width: 1440px;
-      height: 104px;
-      flex-shrink: 0;
-      background-color: var(--NAVY-BLUE);
-      font-family: roboto;
+    width: 1440px;
+   height: 104px;
+   flex-shrink: 0;
+   background-color: var(--NAVY-BLUE);
+   font-family: roboto;
 }
 .heading {
    color: var(--WHITE);
@@ -50,10 +67,11 @@
    font-weight: 700;
 }
 .button {
-      font-size: 10px;
-      color: var(--WHITE);
-      background-color: var(--IRIS);
-      
+   color: var(--WHITE);
+   background-color: var(--IRIS);
+   font-size: 12px;
+   font-style: normal;
+   font-family: roboto;  
 }
 .section1 {
    list-style: none;
@@ -67,7 +85,7 @@ h2 {
    text-align: center;
    width: 1440px;
    font-family: roboto;
-   font-size: 36;
+   font-size: 36px;
    font-weight: 700;
 }
 .section2images {
